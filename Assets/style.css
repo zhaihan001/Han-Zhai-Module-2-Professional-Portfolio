@@ -1,0 +1,126 @@
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+  background-color: #13293d;
+  color: #fff;
+}
+
+h1 {
+  font-size: 200%;
+}
+
+h2 {
+  margin: 2% 0;
+  font-size: 180%;
+}
+
+header img{
+  max-height:2%;
+  max-width: 5%;
+}
+
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 400px;
+}
+
+nav a {
+  color: #b9c6ae;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: large;
+}
+
+nav a:hover {
+  color: #fff;
+  font-size: larger;
+}
+
+/* Body overall */
+
+body {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
+}
+
+main {
+  flex-wrap: wrap;
+  margin: 2%;
+}
+
+/* Paragraphs Style - About Me and Contact Me Sections*/
+
+p {
+  margin: 2% 0;
+  font-size: 110%;
+  line-height: 150%;
+}
+
+/* Work Section */
+
+section {
+  flex: 1 1 0;
+  flex-wrap: wrap;
+  padding-right: 5%;
+}
+
+
+section Img{
+  padding: 5px;
+  margin: auto;
+  flex: auto;
+  max-width: 100%;
+  max-width: 100%;
+}
+
+
+.Imgboder:hover{
+  cursor:pointer;
+  border-style: solid;
+  border-color: blue;
+}
+
+
+.flex{
+  display: inline-block;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  margin-right: 4%;
+  width: 45%;
+  height:auto;
+}
+
+
+/* Contact Me  */
+ol{
+  list-style-type: circle;
+  margin-left: 5%;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  background-color: #13293d;
+  color: #fff;
+}
+
+/* Responsive on Multiple Screens */
+@media screen and (max-width: 768px) {
+  header,
+  main {
+    flex-direction: column;
+  }
+
+  section {
+    padding-right: 20px;
+  }
+}
