@@ -1,9 +1,16 @@
-# Han-Zhai-Module-2-Challenge
-2nd Assignment: Advanced CSS Challenge: Professional Portfolio
+# Han-Zhai-Module-2-Professional Portfolio
+
+## Description
+
+Personal professional portfolio
+
+## Deployment Link
+
+https://zhaihan001.github.io/Han-Zhai-Module-2-Professional-Portfolio/
+
+## Screenshot
 
 ## Acceptance Criteria
-
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
 
 ```
 GIVEN I need to sample a potential employee's previous work
@@ -20,3 +27,4 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
+```
